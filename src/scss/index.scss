@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  background: #F3F3F3;
+}
+
+.App {
+  text-align: center;
+  width: 85%;
+  margin: 10% auto;
+  height: 200px;
+
+  .weather-info{
+      text-align: center;
+      padding: 35px 10px;
+      input[type=text] {
+        padding: 5px;
+        height: 30px;
+        position: relative;
+        left: 0;
+        outline: none;
+        border: 1px solid #cdcdcd;
+        border-color: rgba(0, 0, 0, .15);
+        background-color: white;
+        font-size: 16px;
+      }
+      .button{
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0 20px;
+        background-color: #008CBA;
+        cursor: pointer;
+      }
+  }
+}
+
+

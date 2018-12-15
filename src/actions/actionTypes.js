@@ -1,0 +1,6 @@
+'use strict';
+
+export const FETCH_WEATHER = "FETCH_WEATHER";
+export const RECEIVE_ERROR = "RECEIVE_ERROR";
+export const RECEIVED_WEATHER_INFO = "RECEIVED_WEATHER_INFO";
+export const CHANGE_CITY = "CHANGE_CITY";
